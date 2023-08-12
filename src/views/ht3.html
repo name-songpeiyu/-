@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        input {
+            padding: 0px 10px;
+            box-sizing: border-box;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid rgb(192, 192, 192);
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        select {
+            border: 0px;
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            background-color: #dddddd;
+        }
+
+        button {
+            margin-left: 78px;
+            border-radius: 5px;
+            width: 100px;
+            height: 32px;
+            border: 0px;
+            background-color: #3f49d9;
+            color: #fff;
+        }
+
+        .box {
+            width: 1182px;
+            margin: 50px;
+        }
+
+        a {
+            color: red;
+        }
+
+        table {
+            width: 1182px;
+            height: 60px;
+            text-align: center;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        .shgl {
+            height: 30px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+
+        .gangang {
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background-color: #596cff;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .bottombox>p {
+            font-weight: 600;
+        }
+
+        .box>div:nth-of-type(1)>p {
+            margin: 25px 0px;
+
+        }
+
+        .box>div:nth-of-type(1) {
+            border-bottom: 1px solid rgb(187, 187, 187);
+        }
+
+        .box>div:nth-of-type(1)>button {
+            margin-bottom: 30px;
+        }
+
+        table>tbody>tr {
+            height: 45px;
+        }
+
+        .tr {
+            background-color: #ECEFF8;
+        }
+
+        .tr~tr {
+            border-bottom: 1px dashed rgb(172, 172, 172);
+        }
+
+        .fhbut {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div>
+            <p class="shgl"><span class="gangang"></span>商户管理 <button class="fhbut">返回</button></p>
+            <p>商户名称：<span>北京某某某出版社分公司</span></p>
+            <p>域名密钥：<span>*******************************</span></p>
+            <p>限额剩余：<span>99999999999999 </span> <a href="">修改</a></p>
+            <p>所属地区：<span>河南省</span>&emsp;<span>新乡市</span></p>
+            <p>详细地址：<span>朝阳区驼房营南路 新华科技大厦a座604室</span></p>
+            <p>&emsp;联系人：<span>完烦洪烈</span></p>
+            <p>联系电话：<span>13803295865</span></p>
+            <button>修改信息</button>
+        </div>
+        <div class="bottombox">
+            <p>申请记录</p>
+            <table>
+                <tr class="tr">
+                    <th>申请单号</th>
+                    <th>商品名称</th>
+                    <th>生产日期</th>
+                    <th>生产数量</th>
+                    <th>印刷厂</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                    <td>N1234567890</td>
+                    <td>《傲傻与偏见》世界名着典藏</td>
+                    <td>2019-11-11</td>
+                    <td>100000</td>
+                    <td>北京市瑞合印刷设计有限公司</td>
+                    <td>申请中</td>
+                    <td><img src="../../public/img/修改.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>N1234567890</td>
+                    <td>《傲傻与偏见》世界名着典藏</td>
+                    <td>2019-11-11</td>
+                    <td>999999</td>
+                    <td>北京市瑞合印刷设计有限公司</td>
+                    <td>申请中</td>
+                    <td><img src="../../public/img/修改.png" alt=""></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../utils/jquery-min.js"></script>
+<script src="../components/ht3.js"></script>

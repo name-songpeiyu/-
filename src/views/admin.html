@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../public/img/bg.jpg">
+    <link rel="stylesheet" href="../../public/css/admin.css">
+</head>
+
+<body>
+
+    <main>
+        <div id="window"></div>
+        <!-- 注册 -->
+        <header>
+            <p><img src="../../public/img/logo.png" alt=""></p>
+            <h1>仁知数字链商品管理系统</h1>
+        </header>
+        <div class="login">
+            <!-- <h2>注册账号</h2> -->
+            <input type="text" placeholder="Username" id="username">
+            <p id="shuname">账号为5-8位的小写字母</p>
+            <input type=" password" placeholder="Password" id="password">
+            <p id="shupass">密码为6-16位的大小写字母、数字</p>
+            <input type="password" placeholder="Confirm password" id="confirm">
+            <p id="shucon">输入密码不一致</p>
+            <select id="">
+                <option value="1">用户</option>
+                <option value="2">管理员</option>
+            </select>
+            <p style=" opacity: 1; height: 20px;"> <button class="logupbut1">已有帐号？去登陆</button><a class="mda"
+                    href="../views/retrievePassword.html"
+                    style="float: right; text-decoration: none;margin-right: 33px;">找回密码</a></p>
+            <button class="loginbut">注册</button>
+        </div>
+        <div class="logup">
+            <!-- 登录 -->
+            <!-- <h2>登录</h2> -->
+            <input type="text" placeholder="Username" class="username">
+            <p id="shuname">账号为5-8位的小写字母</p>
+            <input type="password" placeholder="Password" class="password">
+            <p id="shupass">密码为6-16位的大小写字母、数字</p>
+            <p style=" opacity: 1; height: 20px;"><button class="loginbut1">还没账号？去注册</button><a class="mda"
+                    href="../views/retrievePassword.html"
+                    style="float: right; text-decoration: none;margin-right: 33px;">找回密码</a></p>
+            <button class="logupbut">登录</button>
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="../utils/jquery-min.js"></script>
+<script src="../utils/mock-min.js"></script>
+<script src="../utils/md5.js"></script>
+<script src="../utils/time.js"></script>
+<script src="../components/admin.js"></script>
+<script src="../api/adminh.js"></script>

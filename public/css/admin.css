@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/bg.jpg)no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* -----------隐藏的登录页------------------ */
+.logup {
+    display: none;
+}
+
+header {
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+header>p {
+    text-align: center;
+}
+
+header>h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+.login,
+.logup {
+    text-align: center;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    padding-top: 32px;
+}
+
+.login>p,
+.logup>p {
+    font-size: 12px;
+    color: red;
+    opacity: 0;
+}
+
+.login>input,
+.logup>input,
+select {
+    outline: none;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    width: 290px;
+    height: 38px;
+    margin: 4px 0px;
+    border: 0px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+
+select {
+    margin-bottom: 10px;
+}
+
+.login>h2,
+.logup>h2 {
+    margin: 15px 0px;
+}
+
+.login>button,
+.logup>button {
+    border: 0;
+    border-radius: 10px;
+    width: 290px;
+    height: 38px;
+    background-color: #3470FF;
+    color: #fff;
+    margin: 10px 0px 25px 0px;
+}
+
+#window {
+    background-color: #3471ffde;
+    width: 278px;
+    height: 40px;
+    position: absolute;
+    top: -50px;
+    left: 41%;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    color: #949494;
+    font-weight: bold;
+    opacity: 0;
+    transition: .8s ease;
+    z-index: 100;
+}
+
+.mda:hover {
+    color: red;
+}
+
+.loginbut1,
+.logupbut1 {
+    border: 0px;
+    float: left;
+    background-color: #fff;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.loginbut1:hover,
+.logupbut1:hover {
+    color: red;
+}

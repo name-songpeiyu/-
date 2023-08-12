@@ -1,0 +1,145 @@
+.btimg>p {
+    padding: 3rem 0px 2rem 0px;
+}
+
+.btimg {
+    margin: 0px 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 2rem;
+    font-size: 2rem;
+    background-color: #F0F0F0;
+}
+
+.btimg>img {
+
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.pss>p {
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    margin: 0px 1.5rem;
+    box-sizing: border-box;
+}
+
+.pss>p :nth-of-type(1) {
+    color: #818181;
+}
+
+.flexss {
+    margin: 0px 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexss>div:nth-of-type(1)>p {
+    color: #818181;
+    width: 100%;
+}
+
+.flexss>div:nth-of-type(1) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tushuxiangqingtushujianjie {
+    margin: 0px 1.5rem;
+}
+
+.tushuxiangqingtushujianjie>p:nth-of-type(1) {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    color: #818181;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.tushuxiangqingtushujianjie>p:nth-of-type(1)+p {
+    height: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.tushuxiangqingtushujianjie>p:nth-of-type(3) {
+    line-height: 2rem;
+}
+
+hr {
+    height: 1rem;
+    background-color: #ECEFF8;
+    margin: 2rem 0px;
+}
+
+.fot {
+    width: 30rem;
+    margin: 0px auto;
+}
+
+.fot>p {
+    font-size: 1.4rem;
+    color: #5c5c5c;
+    font-weight: 600;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.nantu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 3rem;
+    background-color: rgb(177, 10, 10);
+    background: url(../../public/img/矩形\ 3.png)no-repeat -9px -874px;
+    background-size: 273px;
+}
+
+.rightzhu>div {
+    margin: 1rem 0px;
+    padding: 1rem 0px;
+    display: flex;
+    border-radius: .7rem;
+    width: 27rem;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.rightzhu>div>img {
+    width: 3rem;
+    margin: 0px 1rem;
+}
+
+.nantu>img {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+}
+
+.imgdw1 {
+    top: 1rem;
+    left: 0.31rem;
+}
+
+.imgdw2 {
+    top: 8.5rem;
+    left: 0.31rem;
+}
+
+.imgdw3 {
+    top: 16rem;
+    left: 0.31rem;
+}
+
+.fgweibangding {
+    margin: .5rem 0px;
+    padding: 1rem 0px;
+    background-color: #ECEFF8;
+    text-align: center;
+}

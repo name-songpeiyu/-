@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        input {
+            padding: 0px 10px;
+            box-sizing: border-box;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid rgb(192, 192, 192);
+        }
+
+        p {
+            margin: 10px 0px;
+        }
+
+        select {
+            border: 0px;
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            background-color: #dddddd;
+        }
+
+        button {
+
+            margin-left: 78px;
+            border-radius: 5px;
+            width: 100px;
+            height: 32px;
+            border: 0px;
+            background-color: #3f49d9;
+            color: #fff;
+        }
+
+        .box {
+            width: 1184px;
+            margin: 50px;
+        }
+
+        .gangang {
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background-color: #596cff;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .shgl {
+            height: 30px;
+            line-height: 30px;
+            font-weight: 600;
+
+        }
+
+        .fhbut {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p class="shgl"><span class="gangang"></span>商户管理 <button class="fhbut">返回</button></p>
+        <div>
+            <p>商户名称：<input type="text"></p>
+            <p>域名密钥：<input type="text"></p>
+            <p>限额剩余：<input type="text"></p>
+            <p>所属地区：
+                <select id="province" name="province"></select>
+                <select id="city" name="city"></select>
+            </p>
+            <p>详细地址：<input type="text"></p>
+            <p>&emsp;联系人：<input type="text"></p>
+            <p>联系电话：<input type="text"></p>
+            <button>添加商户</button>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../utils/jquery-min.js"></script>
+<script src="../components/ht2.js"></script>
+<script src="../utils/rem.js"></script>

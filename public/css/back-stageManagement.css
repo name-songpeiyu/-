@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* body { */
+/* background-color: rgb(189, 189, 189); */
+/* } */
+
+.box {
+    display: flex;
+}
+
+.left {
+    box-sizing: border-box;
+    min-width: 249px;
+    color: aliceblue;
+    background: url(../img/leftbg.png) no-repeat;
+}
+
+.logotop {
+    height: 154px;
+    padding: 45px 25px;
+    box-sizing: border-box;
+}
+
+.logotop>img {
+    vertical-align: bottom;
+    float: left;
+}
+
+.logotop>h3 {
+    margin: 3px 0px 0px 55px;
+}
+
+.left>ul>li>ul {
+    display: none;
+
+}
+
+/* 添加class类名让其显示 */
+.left>ul>li>.list~ul {
+    display: block !important;
+}
+
+.left>ul>li>.list {
+    background-color: #2B4CAA;
+}
+
+.left>ul>li>ul>li {
+    padding-left: 72px;
+}
+
+.left>ul>li>p>img {
+    width: 16px;
+    height: 16px;
+    margin: 0px 20px;
+}
+
+.left>ul>li>ul>li,
+.left>ul>li>p {
+    height: 50px;
+    line-height: 50px;
+}
+
+.left>ul>li>ul>li:nth-child(2n+1) {
+    background-color: #1F3E94;
+}
+
+.left>ul>li>ul>li:nth-child(2n) {
+    background-color: #2B4CAA;
+}
+
+.left>ul>li {
+    border-top: 1px solid rgb(58, 58, 58);
+}
+
+/* right-header */
+.right {
+    width: 1287px;
+}
+
+header {
+    padding: 0px 30px;
+    box-sizing: border-box;
+    color: rgb(70, 70, 70);
+    height: 55px;
+    line-height: 55px;
+    box-shadow: 10px -11px 37px 0px #ababab;
+}
+
+header>div {
+    display: inline-block;
+}
+
+header>div:nth-of-type(2) {
+    float: right;
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+}
+
+header>div:nth-of-type(1)>img {
+    margin-right: 10px;
+}
+
+header>div:nth-of-type(2) img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px;
+}
+
+header>div:nth-of-type(2)>span:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+iframe {
+    padding: 0px 0px;
+    width: 1287px;
+    height: 654px;
+}

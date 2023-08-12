@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 1235px;
+            /* height: 90px; */
+            text-align: center;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        table>tbody>tr {
+            height: 45px;
+        }
+
+        .tr {
+            background-color: #ECEFF8;
+        }
+
+        .tr~tr {
+            border-bottom: 1px dashed rgb(172, 172, 172);
+        }
+
+        .box {
+            width: 1235px;
+            margin: 20px 0px 0px 26px;
+        }
+
+        .gangang {
+            display: inline-block;
+            width: 4px;
+            height: 20px;
+            background-color: #596cff;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .shgl {
+            height: 30px;
+            line-height: 30px;
+            font-weight: 600;
+
+        }
+
+        nav>input {
+            padding: 0px 10px;
+            box-sizing: border-box;
+            width: 400px;
+            height: 30px;
+            outline: none;
+            vertical-align: middle;
+            border: 1px solid rgb(206, 206, 206);
+        }
+
+        nav {
+            margin: 10px 0px;
+        }
+
+        .shousuo {
+            width: 90px;
+            height: 30px;
+            border: 0px;
+            vertical-align: middle;
+            background-color: #3f49d9;
+            color: #fff;
+            border-radius: 3px;
+        }
+
+        .tjbut {
+            padding: 0px 2px;
+            width: 90px;
+            height: 30px;
+            border: 0px;
+            vertical-align: middle;
+            background-color: #3f49d9;
+            color: #fff;
+            vertical-align: middle;
+            border-radius: 3px;
+            float: right;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p class="shgl"><span class="gangang"></span>商户管理</p>
+        <nav><input type="text"><button class="shousuo">搜索</button><button class="tjbut" onclick="hut3()"> <img
+                    src="../../public/img/add.png" alt="">
+                <span>添加商户</span> </button>
+        </nav>
+        <table>
+            <tr class="tr">
+                <th>商户名称</th>
+                <th>限额剩余</th>
+                <th>所属地区</th>
+                <th>联系人</th>
+                <th>操作</th>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>11</td>
+                <td>11</td>
+                <td>11</td>
+                <td>
+                    <img src="../../public/img/修改.png" alt="">&emsp;&emsp;<img src="../../public/img/垃圾箱.png" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>11</td>
+                <td>11</td>
+                <td>11</td>
+                <td>
+                    <img src="../../public/img/修改.png" alt="">&emsp;&emsp;<img src="../../public/img/垃圾箱.png" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
+<script>
+    function hut3() {
+        window.location.href = '../views/ht2.html';
+    }
+</script>
